@@ -40,6 +40,7 @@ span{
     border-radius: 20px;
     color:#fff;
     font-weight: bold;
+   
     
 
 }
@@ -238,7 +239,7 @@ span{
 }
 /*---------------------------------------------footer---------------------------*/
  footer{
-     padding:40px;
+     padding:35px;
      margin-top: 40px;
      width:100%;
      background:rgb(3, 5, 22);
