@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.top-section{
+    display:flex;
+}
+
+.half-width{
+    width:50%;
+    margin:5%;
+}
+
+
+#title-1{
+    font-size: 40px;
+    line-height: 60px;
+    padding-top:60px;
+}
+
+span{
+    color:rgb(229, 42, 61);
+}
+
+.half-width p{
+    color:#333;
+    padding:20px 0px 40px;
+    line-height: 25px;
+}
+
+.button{
+    text-decoration: none;
+    padding:10px 30px;
+    background: rgb(229, 42, 61);
+    border-radius: 20px;
+    color:#fff;
+    font-weight: bold;
+    
+
+}
+
+.half-width img{
+  width:100%;
+}
+
+/*-----------------About me-------------------*/
+.about-section{
+    background: url(src/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title-2{
+    font-size: 37px;
+    padding-top: 50px;
+
+}
+
+/*---------------My Recipies-------------------*/
+
+.recipies{
+    padding:60px 0px;
+}
+.recipies h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+#recipie-p{
+    color:#333;
+    padding:15px 0;
+    text-align: center;
+}
+
+.recipie-item{
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+   
+}
+
+.item{
+   width:250px;
+   padding:20px;
+   box-shadow: 10px 10px 14px #777, 10px 10px 14px #777;
+   margin:3%;
+   border-radius: 15px;
+ 
+}
+
+.item img{
+    height:170px;
+    width:250px;
+    border-radius: 15px;
+}
+
+.item h2{
+    padding:17px 0 14px;
+}
+
+.item p{
+    color:#444;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+/*-----------Follow Section-----------*/
+.follow-section{
+    padding:30px 0;
+   
+    
+}
+
+.container{
+    display: flex;
+    box-shadow: 10px 10px 14px #777, 10px 10px 14px #777;
+    width:75%;
+    justify-content: space-around;
+     margin:0 auto;
+
+}
+
+.media-item{
+    padding:50px;
+}
+.media-item p{
+    color:#666;
+    padding-top: 5px;
+}
+
+
+/*-------------------Special discount---------------*/
+
+.discount-section{
+    padding:40px 0;
+    background: url(src/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dis-title{
+    color:rgb(255, 9, 9);
+    padding:15px 0;
+    text-align: center;
+    font-size: 40px;
+
+}
+#dis-title2{
+    color:rgb(251, 143, 1);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.discount-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .menu{
+     width:250px;
+     margin: 2%;
+     box-shadow: 10px 10px 14px #777, 10px 10px 14px #777;
+     padding:40px 8px;
+     text-align: center;
+     border-radius: 10px;
+
+
+ }
+
+ .menu img{
+     width:250px;
+     height:300px;
+     padding-bottom: 40px;
+     border-radius: 10px;
+    
+ }
+.menu h2{
+    color:rgb(250, 136, 29);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:10px;
+}
+
+.menu h3{
+    color:red;
+    padding:10px 0px 15px;
+}
+/*--------------review-------------*/
+.review-section{
+    padding:40px 0px;
+
+}
+#review-title{
+    text-align: center;
+    color:rgb(66, 13, 18);
+    padding:30px 0px;
+    font-size: 26px;
+}
+.review-customers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.customer{
+    width:200px;
+    margin: 2%;
+    
+}
+.customer img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin:0 auto;
+    display: block;
+  
+}
+.customer p{
+    text-align: center;
+    color:rgb(146, 110, 11);
+    padding: 15px 0;
+
+}
+.customer h4{
+    text-align: center;
+    color:rgb(241, 115, 57);
+}
+/*-----------------------footer------------------*/
+ footer{
+     padding:40px;
+     margin-top: 40px;
+     width:100%;
+     background:rgb(3, 5, 22);
+ }
+
+ footer h1{
+     text-align: center;
+     color:#fff;
+     
+
+ }
+
+ footer p{
+    padding:8px;
+    text-align: center;
+    color:#fff;
+    
+
+ }
